@@ -4,6 +4,8 @@ import {
 	Route,
 } from 'react-router-dom';
 import './App.css';
+import Header from './Components/Header/Header';
+import TinderCards from './Components/TinderCards';
 // import Header from './Components/Header/Header';
 
 function App() {
@@ -16,11 +18,7 @@ function App() {
 					<Route
 						exact
 						path='/'
-						element={
-							<h1>
-								I am the home page.
-							</h1>
-						}
+						element={<TinderCards />}
 					/>
 					<Route
 						exact
