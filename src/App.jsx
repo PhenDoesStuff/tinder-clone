@@ -1,11 +1,14 @@
 import './App.css';
+import Header from './Components/Header/Header';
 
 function App() {
 	return (
 		<div className='App'>
+			{/* Header */}
+			<Header />
+
 			<h1>Let's Build the TINDER Clone App 🚀</h1>
 
-			{/* Header */}
 			{/* Tinder Cards */}
 			{/* Buttons below cards */}
 

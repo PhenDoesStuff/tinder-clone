@@ -1,0 +1,16 @@
+.header {
+	display: flex; /* This will push code into a row */
+	justify-content: space-between; /* Gives space between children inside the div */
+	align-items: center; /* This will align your items in the middle of the horizontal */
+	border-bottom: 1px solid #f9f9f9;
+}
+
+.header__logo {
+	height: 40px;
+	object-fit: contain;
+}
+
+.header__icon {
+	padding: 20px;
+}
+
