@@ -7,8 +7,6 @@ function App() {
 			{/* Header */}
 			<Header />
 
-			<h1>Let's Build the TINDER Clone App 🚀</h1>
-
 			{/* Tinder Cards */}
 			{/* Buttons below cards */}
 
